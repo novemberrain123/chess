@@ -47,7 +47,7 @@
   --bs-dark-rgb: 33, 37, 41;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
-  --bs-body-color-rgb: 33, 37, 41;
+  --bs-body-color-rgb: 255, 255, 255;
   --bs-body-bg-rgb: 248, 250, 252;
   --bs-font-sans-serif: "Nunito", sans-serif;
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
@@ -56,7 +56,7 @@
   --bs-body-font-size: 0.9rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.6;
-  --bs-body-color: #212529;
+  --bs-body-color: white;
   --bs-body-bg: #f8fafc;
   --bs-border-width: 1px;
   --bs-border-style: solid;
@@ -115,11 +115,11 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 }
 
 h1, .h1 {
-  font-size: calc(3.225rem + 23.7vw);
+  font-size: calc(2.025rem + 9.3vw);
 }
 @media (min-width: 1200px) {
   h1, .h1 {
-    font-size: 21rem;
+    font-size: 9rem;
   }
 }
 
@@ -2742,7 +2742,7 @@ textarea.form-control-lg {
   --bs-btn-font-size: 0.9rem;
   --bs-btn-font-weight: 400;
   --bs-btn-line-height: 1.6;
-  --bs-btn-color: #212529;
+  --bs-btn-color: white;
   --bs-btn-bg: transparent;
   --bs-btn-border-width: 1px;
   --bs-btn-border-color: transparent;

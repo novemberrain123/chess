@@ -14,5 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
+
+Route::get('/setup', function () {
+    return view('setup');
+});
+
+Route::get('/host', [\App\Http\Controllers\GameViewController::class, 'hostGame']);
+
